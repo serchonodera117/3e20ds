@@ -1,0 +1,11 @@
+let x = Number(prompt("escribe el número de aleatorios: "))
+
+console.log(aleatorio(x))
+
+function aleatorio(x)
+{
+ for(i= 1; i<= x; i++)
+ {
+    console.log("numero [",i,"] : ",Math.round(Math.random()*x))
+ }
+}
