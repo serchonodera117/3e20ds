@@ -1,0 +1,3 @@
+Creado con node puesto que inicialmente se había planteado usar node, así todos los programas de la carpea "imprmir series de n numeros"
+solo funcionarán con node, por lo que hice dos variantes de esta carpeta, la que funcionaría con consola de navegador se la "series 
+de n numeros por consola de navegador".
