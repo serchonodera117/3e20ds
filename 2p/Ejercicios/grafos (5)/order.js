@@ -9,7 +9,7 @@ class matriz
   {
       this.elements[this.size] = x;
       this.size++
-  }
+  } nodes(){return this.size}
 
   order (arr)
     {
@@ -23,7 +23,7 @@ class matriz
              arr[j + 1] = a        
               
           }
-        }
+        } return "numero de elementos : " + this.nodes()
     }
     
     a2b(arr)
@@ -45,5 +45,5 @@ a.a2b(arr);
 console.log(a)
 console.log(arr.toString());
 
-a.order(arr);
+console.log(a.order(arr));
 console.log(arr.toString())
